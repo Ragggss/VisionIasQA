@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-07T13:15:53 IST" name="Suite" finished-at="2023-09-07T13:16:27 IST" duration-ms="33419">
+    <groups>
+    </groups>
+    <test started-at="2023-09-07T13:15:53 IST" name=" Resources sub-module testing" finished-at="2023-09-07T13:16:27 IST" duration-ms="33419">
+      <class name="org.testpackage.MainsTestSeriesTest">
+        <test-method is-config="true" signature="initiateExtentReports()[pri:0, instance:org.testpackage.MainsTestSeriesTest@55a147cc]" started-at="2023-09-07T13:15:53 IST" name="initiateExtentReports" finished-at="2023-09-07T13:15:53 IST" duration-ms="202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateExtentReports -->
+        <test-method is-config="true" signature="launch(org.testng.ITestContext)[pri:0, instance:org.testpackage.MainsTestSeriesTest@55a147cc]" started-at="2023-09-07T13:15:53 IST" name="launch" finished-at="2023-09-07T13:15:59 IST" duration-ms="5484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@50a13c2f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="filterFuntionalityTest()[pri:0, instance:org.testpackage.MainsTestSeriesTest@55a147cc]" started-at="2023-09-07T13:15:59 IST" name="filterFuntionalityTest" finished-at="2023-09-07T13:16:27 IST" duration-ms="27912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- filterFuntionalityTest -->
+        <test-method is-config="true" signature="checkStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:org.testpackage.MainsTestSeriesTest@55a147cc]" started-at="2023-09-07T13:16:27 IST" name="checkStatus" finished-at="2023-09-07T13:16:27 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.testpackage.MainsTestSeriesTest.filterFuntionalityTest()]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=filterFuntionalityTest status=SUCCESS method=MainsTestSeriesTest.filterFuntionalityTest()[pri:0, instance:org.testpackage.MainsTestSeriesTest@55a147cc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatus -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.testpackage.MainsTestSeriesTest@55a147cc]" started-at="2023-09-07T13:16:27 IST" name="tearDown" finished-at="2023-09-07T13:16:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="generateExtentReport()[pri:0, instance:org.testpackage.MainsTestSeriesTest@55a147cc]" started-at="2023-09-07T13:16:27 IST" name="generateExtentReport" finished-at="2023-09-07T13:16:29 IST" duration-ms="1642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateExtentReport -->
+      </class> <!-- org.testpackage.MainsTestSeriesTest -->
+    </test> <!--  Resources sub-module testing -->
+  </suite> <!-- Suite -->
+</testng-results>
